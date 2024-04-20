@@ -24,12 +24,43 @@
         "GitHub.copilot",
         "ms-vscode.azure-account",
         "ms-azuretools.vscode-azurestaticwebapps"
+        "oderwat.indent-rainbow"
       ],
       "settings": {
         "emmet.includeLanguages": {
           "javascript": "javascriptreact"
         },
-        "emmet.triggerExpansionOnTab": true
+        "emmet.triggerExpansionOnTab": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        },
+        "editor.rulers": [80, 120],
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "eslint.packageManager": "npm",
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000,
+        "javascript.updateImportsOnFileMove.enabled": "always",
+        "prettier.jsxSingleQuote": true,
+        "prettier.semi": false,
+        "prettier.singleQuote": true,
+        "prettier.trailingComma": "all",
+        "prettier.printWidth": 80,
+        "prettier.tabWidth": 2,
+        "prettier.useTabs": false,
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "terminal.integrated.shellArgs.linux": ["-l"],
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "/bin/bash",
+            "args": ["-l"]
+          }
+        },
+
+        
+
       }
     }
   },
