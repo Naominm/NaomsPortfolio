@@ -9,6 +9,7 @@
  */
 
 import React from "react";
+import image from "../images/code.jpg";
 
 /**
  * Desk image
@@ -19,9 +20,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+
+const imageAltText = "a section of a react code snippet";
 
 /**
  * Project list
@@ -31,16 +32,16 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Second Hand Items Resel flagship Website",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      " I designed and developed. A Flagship website for Second Hand Items Resel. It is a platform where we showcase our second hand Goods and guide user on installing the App. It is built using React js.",
+    url: "https://flagship-secondhand.vercel.app ",
   },
   {
-    title: "Web Development for Beginners",
+    title: "An Interfece for a Large Language Model Neural machine Translator",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "I developed an interface for a Large Language Model Neural machine Translator. It is a platform where users can input text and get the translation in the desired language. It is built using Next js.",
+    url: "https://language-model.vercel.app",
   },
   {
     title: "My Resume Site",
@@ -49,10 +50,16 @@ const projectList = [
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "chicken Selling Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "I designed this website for a chicken selling starter company. It is a platform where users can see the chickens and can add them to their carts.",
+    url: "https://chicken-selling.netlify.app",
+  },
+  {
+    title: "A snake Game",
+    description:
+      "I developed a snake game using HTML, CSS and JavaScript. It is a platform where users can play the snake game.",
+    url: "https://naominm.github.io/snakeGame/",
   },
 ];
 
