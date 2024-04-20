@@ -26,7 +26,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Naomi Mbugua",
-  title: "Web Designer & Content Creator",
+  title: "Web Designer & Frontend Developer",
   email: "naomimbugua349@gmail.com",
   gitHub: "https://github.com/Naominm",
   instagram: "https://www.instagram.com/nash_mbugua/",
