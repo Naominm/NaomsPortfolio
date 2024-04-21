@@ -9,7 +9,7 @@
  */
 
 import React from "react";
-import image from "../images/code.jpg";
+import image from "../images/macbook.jpg";
 
 /**
  * Desk image
@@ -67,13 +67,14 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "2rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
             style={{
               height: "100%",
               width: "100%",
+              marginLeft: "10px",
               objectFit: "cover",
               animation: "1s ease-out 0s 1 slideInLeft",
             }}
