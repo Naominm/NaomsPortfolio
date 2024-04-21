@@ -20,14 +20,14 @@ const Education = () => {
 
   return (
     <section className="light" id="education">
-      <h2>Education</h2>
+      <h2 style={{ display: "flex", alignItems: "center" }}>Education</h2>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {educationData.map((education, index) => (
           <div key={index} style={{ width: "100%", marginBottom: "20px" }}>
             <img
               src={education.image}
               alt={education.imageAltText}
-              style={{ width: "100%", objectFit: "cover", borderRadius: "5px" }}
+              style={{ width: "100%", height: "200px", objectFit: "cover", borderRadius: "5px" }}
             />
             <div style={{ padding: "10px" }}>
               <h3>{education.title}</h3>
